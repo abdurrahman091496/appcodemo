@@ -274,6 +274,8 @@ nav{
 .offer-left{
     margin-left: 20px;
     transition: .7s linear;
+    background: #fff;
+    margin-bottom:20px;
 }
 .offer-left:hover{
     border: 1px solid rgba(0,0,0,.2);
@@ -300,6 +302,8 @@ nav{
 .offer-middle{
     border: 1px solid rgba(0,0,0,.2);
     margin: 0px 30px;
+    background: #fff;
+    margin-bottom:20px;
 }
 
 .offer-middle h5{
@@ -324,6 +328,8 @@ nav{
 .offer-right{
     margin-right: 20px;
     transition: .3s linear;
+    background: #fff;
+    margin-bottom:20px;
 }
 .offer-right:hover{
     border: 1px solid rgba(0,0,0,.2);
