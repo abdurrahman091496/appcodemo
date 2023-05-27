@@ -261,6 +261,9 @@ nav{
     text-align: center;
     margin-top: 150px;
     justify-content: space-evenly;
+    align-items:center;
+    margin-right: 70px;
+    margin-bottom: 150px;
 }
 .fa-id-badge{
     color: rgb(255, 255, 255);
@@ -272,10 +275,11 @@ nav{
     margin-top: 100px;
 }
 .offer-left{
-    margin-left: 20px;
+    margin-left: 50px;
     transition: .7s linear;
     background: #fff;
-    margin-bottom:20px;
+    width: 400px;
+    height: 500px;
 }
 .offer-left:hover{
     border: 1px solid rgba(0,0,0,.2);
@@ -303,7 +307,8 @@ nav{
     border: 1px solid rgba(0,0,0,.2);
     margin: 0px 30px;
     background: #fff;
-    margin-bottom:20px;
+    width: 400px;
+    height: 500px;
 }
 
 .offer-middle h5{
@@ -329,7 +334,8 @@ nav{
     margin-right: 20px;
     transition: .3s linear;
     background: #fff;
-    margin-bottom:20px;
+    width: 400px;
+    height: 500px;
 }
 .offer-right:hover{
     border: 1px solid rgba(0,0,0,.2);
