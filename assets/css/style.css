@@ -46,7 +46,7 @@ nav{
     align-items: center;
     position: sticky;
     top: 0;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     box-shadow: 1px 2px 7px rgba(0,0,0,.1);
     /* border: 1px solid red; */
     z-index: 1;
@@ -245,6 +245,8 @@ nav{
 .offer-section{
     margin-top: 250px;
     background-color: var(--bgcolor);
+    margin-bottom: 250px;
+    display: inline-block;
 }
 .offer-heading h2{
     text-align: center;
@@ -261,9 +263,9 @@ nav{
     text-align: center;
     margin-top: 150px;
     justify-content: space-evenly;
-    align-items:center;
-    margin-right: 70px;
     margin-bottom: 150px;
+    margin-right: 70px;
+    align-items: center;
 }
 .fa-id-badge{
     color: rgb(255, 255, 255);
@@ -274,10 +276,28 @@ nav{
     margin-bottom: 50px;
     margin-top: 100px;
 }
+.fa-credit-card{
+    color: rgb(255, 255, 255);
+    background-color: #e78ce9;
+    font-size: 30px;
+    padding: 25px 24px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.fa-message{
+    color: rgb(255, 255, 255);
+    background-color: #e78ce9;
+    font-size: 30px;
+    padding: 25px 24px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
 .offer-left{
     margin-left: 50px;
     transition: .7s linear;
-    background: #fff;
+    background-color: white;
     width: 400px;
     height: 500px;
 }
@@ -306,7 +326,7 @@ nav{
 .offer-middle{
     border: 1px solid rgba(0,0,0,.2);
     margin: 0px 30px;
-    background: #fff;
+    background-color: white;
     width: 400px;
     height: 500px;
 }
@@ -333,7 +353,7 @@ nav{
 .offer-right{
     margin-right: 20px;
     transition: .3s linear;
-    background: #fff;
+    background-color: white;
     width: 400px;
     height: 500px;
 }
